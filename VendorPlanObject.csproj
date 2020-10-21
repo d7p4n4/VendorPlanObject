@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CSAc4yClassFW">
+      <HintPath>CSAc4yClassFW.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
