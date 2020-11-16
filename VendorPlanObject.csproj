@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <Reference Include="CSAc4yClassFW">
-      <HintPath>CSAc4yClassFW.dll</HintPath>
+      <HintPath>C:\library\LPCsharp\CSAc4yClassFW.dll</HintPath>
     </Reference>
   </ItemGroup>
 
