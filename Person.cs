@@ -10,9 +10,11 @@ namespace VendorPlanObject
         [Ac4yDescription("Az adatbázis által generált érték")]
         [Ac4yExampleValue("2")]
         public int Id { get; set; }
+        [Ac4yWidgetType(Ac4yWidgetType.WidgetEnum.TEXTBOX)]
         [Ac4yDescription("A személy neve")]
         [Ac4yExampleValue("Nagy Károly")]
         public string Name { get; set; }
+        [Ac4yWidgetType(Ac4yWidgetType.WidgetEnum.TEXTBOX)]
         [Ac4yDescription("A személy kora")]
         [Ac4yExampleValue("45")]
         public int Age { get; set; }
