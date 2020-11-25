@@ -21,19 +21,19 @@ namespace VendorPlanObject
         [Ac4yExampleValue("Magyarország")]
         public string SzekhelyOrszag { get; set; }
         [Ac4yWidgetType(Ac4yWidgetType.WidgetEnum.TEXTBOX)]
-        [Ac4yDescription("A rekordhoz tartozó név")]
+        [Ac4yDescription("A rekordhoz tartozó székhely régiója")]
         [Ac4yExampleValue("Nagy Károly")]
         public string SzekhelyRegio { get; set; }
-        [Ac4yWidgetType(Ac4yWidgetType.WidgetEnum.COMBOBOX)]
-        [Ac4yDescription("A rekordhoz tartozó név")]
+        [Ac4yWidgetType(Ac4yWidgetType.WidgetEnum.TEXTBOX)]
+        [Ac4yDescription("A rekordhoz tartozó székhely városa")]
         [Ac4yExampleValue("Nagy Károly")]
         public string SzekhelyVaros { get; set; }
         [Ac4yWidgetType(Ac4yWidgetType.WidgetEnum.TEXTBOX)]
-        [Ac4yDescription("A rekordhoz tartozó név")]
+        [Ac4yDescription("A rekordhoz tartozó székhely címe")]
         [Ac4yExampleValue("Nagy Károly")]
         public string SzekhelyCim { get; set; }
         [Ac4yWidgetType(Ac4yWidgetType.WidgetEnum.TEXTBOX)]
-        [Ac4yDescription("A rekordhoz tartozó név")]
+        [Ac4yDescription("A rekord milyen szolgáltatási területhez tartozik")]
         [Ac4yExampleValue("Nagy Károly")]
         public string SzolgaltatasiTerulet { get; set; }
         [Ac4yWidgetType(Ac4yWidgetType.WidgetEnum.TEXTBOX)]
@@ -48,11 +48,11 @@ namespace VendorPlanObject
         [Ac4yDescription("A rekordhoz tartozó email cím")]
         [Ac4yExampleValue("teszt@email.hu")]
         public string Email { get; set; }
-        [Ac4yWidgetType(Ac4yWidgetType.WidgetEnum.NODEF)]
+        [Ac4yWidgetType(Ac4yWidgetType.WidgetEnum.DATETIME)]
         [Ac4yDescription("A szerződés kezdetét jelentő dátum")]
         [Ac4yExampleValue("Nagy Károly")]
         public DateTime SzerzodesKezdete { get; set; }
-        [Ac4yWidgetType(Ac4yWidgetType.WidgetEnum.NODEF)]
+        [Ac4yWidgetType(Ac4yWidgetType.WidgetEnum.DATETIME)]
         [Ac4yDescription("A szerződés végét jelentő dátum")]
         [Ac4yExampleValue("Nagy Károly")]
         public DateTime SzerzodesVege { get; set; }
